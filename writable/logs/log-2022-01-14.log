@@ -1,0 +1,313 @@
+CRITICAL - 2022-01-14 02:21:24 --> Undefined variable $session
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 02:22:45 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 02:31:20 --> Undefined variable $builder
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 152)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 02:43:13 --> Undefined array key "id"
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Views\employee\employeeDetails.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('employee/employ...', Array, true)
+#4 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(136): view('employee/employ...', Array)
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#6 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 02:50:05 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users/singleEm...')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users/singleEm...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 02:50:51 --> Undefined variable $status
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 02:50:54 --> Undefined variable $status
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 02:51:10 --> Too few arguments to function App\Controllers\Users::singleEmpDetails(), 0 passed in C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 02:51:11 --> Too few arguments to function App\Controllers\Users::singleEmpDetails(), 0 passed in C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 02:51:13 --> Too few arguments to function App\Controllers\Users::singleEmpDetails(), 0 passed in C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 02:51:14 --> Too few arguments to function App\Controllers\Users::singleEmpDetails(), 0 passed in C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 02:51:15 --> Too few arguments to function App\Controllers\Users::singleEmpDetails(), 0 passed in C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 02:51:15 --> Too few arguments to function App\Controllers\Users::singleEmpDetails(), 0 passed in C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 02:57:02 --> Too few arguments to function App\Controllers\Users::singleEmpDetails(), 0 passed in C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->singleEmpDetails()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 03:05:12 --> Undefined variable $data
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 156)
+#1 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(136): App\Controllers\Users->singleEmpDetails('4')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 03:10:11 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 03:12:14 --> Undefined variable $data
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 167)
+#1 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(136): App\Controllers\Users->singleEmpDetails('5')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 03:13:31 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users/singleEm...')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users/singleEm...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 03:16:26 --> syntax error, unexpected variable "$builder"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users/singleEm...')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users/singleEm...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 03:16:32 --> syntax error, unexpected variable "$builder"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 03:18:57 --> Undefined variable $data
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(136): App\Controllers\Users->singleEmpDetails('5')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 03:38:14 --> syntax error, unexpected double-quoted string " ", expecting "," or ";"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('employee/employ...', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(162): view('employee/employ...', Array)
+#3 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(136): App\Controllers\Users->singleEmpDetails('5')
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-14 04:19:58 --> Undefined property: App\Controllers\Users::$usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 04:20:35 --> Undefined property: App\Controllers\Users::$usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 04:20:36 --> Undefined property: App\Controllers\Users::$usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 04:20:37 --> Undefined property: App\Controllers\Users::$usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 04:20:37 --> Undefined property: App\Controllers\Users::$usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 04:20:38 --> Undefined property: App\Controllers\Users::$usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 04:20:38 --> Undefined property: App\Controllers\Users::$usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 04:20:39 --> Undefined property: App\Controllers\Users::$usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 04:40:34 --> syntax error, unexpected token "<", expecting end of file
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('employee/employ...', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(174): view('employee/employ...', Array)
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-14 04:41:04 --> Undefined array key "proName"
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Views\employee\employeeListing.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('employee/employ...', Array, true)
+#4 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(174): view('employee/employ...', Array)
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->allEmpListing()
+#6 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 05:01:48 --> Undefined property: App\Controllers\Users::$usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->edit('1')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 05:02:13 --> Undefined variable $usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->edit('1')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 05:02:37 --> Undefined variable $usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->edit('1')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 05:02:38 --> Undefined variable $usermodel
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->edit('1')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 05:04:52 --> Undefined variable $userExists
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->edit('1')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 06:24:04 --> Unmatched ')'
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('registration', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(186): view('registration', Array)
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->edit('9')
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-14 06:39:36 --> Undefined variable $userExists
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Views\registration.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('registration', Array, true)
+#4 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(137): view('registration')
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#6 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 06:40:39 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('registration', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(137): view('registration')
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-14 06:42:19 --> Undefined variable $userExists
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Views\registration.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('registration', Array, true)
+#4 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(137): view('registration')
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#6 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-14 08:39:15 --> syntax error, unexpected single-quoted string "gender", expecting "]"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users/registra...')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users/registra...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

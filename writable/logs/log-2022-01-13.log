@@ -1,0 +1,292 @@
+CRITICAL - 2022-01-13 17:11:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\test\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\test\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\test\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-13 17:17:54 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\test\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\test\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\test\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-13 17:18:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\test\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\test\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\test\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\test\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-01-13 12:22:41 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-01-13 12:22:41 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#6 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-13 12:23:20 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-01-13 12:23:20 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#6 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 12:25:22 --> Undefined array key "userType"
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 12:33:31 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users/login')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users/login')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 12:34:04 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users/login')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users/login')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 12:37:00 --> Undefined global variable $_SESSION
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 12:38:05 --> Undefined global variable $_SESSION
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 12:39:25 --> syntax error, unexpected identifier "bg", expecting "," or ";"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(110): view('login', Array)
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 12:42:49 --> syntax error, unexpected identifier "bg", expecting "," or ";"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(110): view('login', Array)
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 12:42:51 --> syntax error, unexpected identifier "bg", expecting "," or ";"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(110): view('login', Array)
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 12:42:52 --> syntax error, unexpected identifier "bg", expecting "," or ";"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(110): view('login', Array)
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 12:43:21 --> Undefined global variable $_SESSION
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-13 12:46:33 --> Unknown column 'session' in 'field list'
+CRITICAL - 2022-01-13 12:46:33 --> Unknown column 'session' in 'field list'
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `users` ...', 0)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(88): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#6 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 12:48:34 --> Undefined array key "firstName"
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 90)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 12:51:55 --> Undefined array key "isActive"
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 12:52:15 --> Undefined property: App\Controllers\Users::$session
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 12:57:33 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users/login')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users/login')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-13 13:55:49 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-01-13 13:55:49 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\wbemployAsmnt\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wbemployAsmnt\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wbemployAsmnt\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('abcd23@d.mm', 'email', Array, NULL)
+#6 C:\xampp\htdocs\wbemployAsmnt\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'abcd23@d.mm', Array, Array)
+#7 C:\xampp\htdocs\wbemployAsmnt\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(24): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->registration()
+#10 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-13 14:09:18 --> syntax error, unexpected variable "$userData"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users/login')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users/login')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 14:09:26 --> syntax error, unexpected variable "$userData"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users/login')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users/login')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 14:09:27 --> syntax error, unexpected variable "$userData"
+#0 C:\xampp\htdocs\wbemployAsmnt\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/users')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/users')
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 22:58:46 --> Invalid file: employeeDetails.php
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employeeDetails...')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('employeeDetails', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(129): view('employeeDetails')
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 23:00:19 --> Invalid file: employee/employeeDetails.php
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/employ...')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('employee/employ...', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(129): view('employee/employ...')
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 23:00:29 --> Invalid file: employee/employeeDetails.php
+#0 C:\xampp\htdocs\wbemployAsmnt\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/employ...')
+#1 C:\xampp\htdocs\wbemployAsmnt\system\Common.php(1089): CodeIgniter\View\View->render('employee/employ...', Array, true)
+#2 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(129): view('employee/employ...')
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#4 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 23:12:19 --> Undefined property: App\Controllers\Users::$session
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 23:15:22 --> Undefined variable $config
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 23:16:53 --> Undefined property: App\Controllers\Users::$session
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 23:31:00 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-13 23:31:58 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-13 23:51:09 --> Undefined variable $config
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 23:55:40 --> Undefined variable $session
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 23:56:01 --> Undefined variable $session
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 23:58:24 --> Undefined variable $session
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 23:59:35 --> Undefined variable $session
+#0 C:\xampp\htdocs\wbemployAsmnt\app\Controllers\Users.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(825): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\wbemployAsmnt\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wbemployAsmnt\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
